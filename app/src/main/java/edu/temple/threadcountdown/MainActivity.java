@@ -53,7 +53,11 @@ public class MainActivity extends Activity {
                                 for(int i=toCount;i>=0;i--){
 
                                     while (state != 1) {
-
+                                        try {
+                                            Thread.sleep(10);
+                                        } catch (InterruptedException e) {
+                                            e.printStackTrace();
+                                        }
                                     }
 
                                     Message msg = timerHandler.obtainMessage();
