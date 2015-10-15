@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ThreadCountdown</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="start">Start</string>
+    <string name="countdown">COUNTDOWN</string>
+    <string name="number">0</string>
+    <string name="prompt">Enter Time (in seconds):</string>
+    <string name="countdown_complete">Countdown Complete</string>
+</resources>
